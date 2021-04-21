@@ -2,13 +2,13 @@
 
 *Commits some work*
 
-
+--------------
 
 **git branch [branchName]**
 
 *Creates the branch*
 
-
+--------------
 
 **git checkout [branchName]**
 
