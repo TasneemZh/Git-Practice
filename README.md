@@ -2,7 +2,7 @@
 
 2 - Create a local repository with some files
 
-3 - On the HyperTerminal, write:
+3 - On the HyperTerminal, type:
 
 - cd Git-Practice
 
