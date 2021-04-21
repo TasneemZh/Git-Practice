@@ -83,10 +83,10 @@
 11 - On the HyperTerminal, type:
 
 - git fetch
-- cat git-commands-local.md *Not Updated yet*
-- cat status *the local main branch is behind the remote main branch by a number of commits*
+- cat git-commands-local.md **not updated yet**
+- cat status **the local main branch is behind the remote main branch by a number of commits**
 - git merge origin/main
-- cat git-commands-local.md *Now it is up-to-date*
+- cat git-commands-local.md **now it is up-to-date**
 
 12 - Add the rest of steps on README.md on the remote repository
 
