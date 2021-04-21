@@ -1,8 +1,8 @@
-1 - Create an empty repository on GitHub
+### 1 - Create an empty repository on GitHub
 
-2 - Create a local repository with some files
+### 2 - Create a local repository with some files
 
-3 - On the HyperTerminal, type:
+### 3 - On the HyperTerminal, type:
 
 - cd Git-Practice
 
@@ -31,17 +31,17 @@
 - git push
 - git checkout temp
 
-4 - Change one of the files extensions [from txt to md]
+### 4 - Change one of the files extensions [from txt to md]
 
-5 - On the HyperTerminal, type:
+### 5 - On the HyperTerminal, type:
 
 - git status
 - git add .
 - git commit -m "Change the extension of git-command-local"
 
-6 - Change the other file extension [from txt to md]
+### 6 - Change the other file extension [from txt to md]
 
-7 - On the HyperTerminal, type:
+### 7 - On the HyperTerminal, type:
 
 - git status
 - git add .
@@ -58,9 +58,9 @@
 - git branch -d temp
 - git branch
 
-8 - Format the two git-commands files on the remote repository
+### 8 - Format the two git-commands files on the remote repository
 
-9 - On the HyperTerminal, type:
+### 9 - On the HyperTerminal, type:
 
 - git checkout -b new
 - cat >>README.md
@@ -82,20 +82,23 @@
 
 ### 11 - On the HyperTerminal, type:
 
-> git fetch
+  > git fetch
 
-> cat git-commands-local.md
+  > cat git-commands-local.md
+
 *not updated yet*
 
 > cat status
+
 *the local main branch is behind the remote main branch by a number of commits*
 
 > git merge origin/main
 
 > cat git-commands-local.md
+
 *now it is up-to-date*
 
-#### 12 - Add the rest of steps on README.md on the remote repository
+### 12 - Add the rest of steps on README.md on the remote repository
 
 
 
