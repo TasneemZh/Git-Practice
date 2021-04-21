@@ -32,7 +32,9 @@
 
 *Equals to fetch and then merge (follows this command, the push command)*
 
-**Note:** this command is used instead of simply fetching, is when there are updates on the remote and changes in the local repository
+**Notes:**
+
+this command is used instead of simply fetching, is when there are updates on the remote and changes in the local repository
 
 --------------
 
