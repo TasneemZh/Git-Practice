@@ -34,7 +34,7 @@
 
 **Notes:**
 
-this command is used instead of simply fetching, is when there are updates on the remote and changes in the local repository
+- this command is used instead of simply fetching, is when there are updates on the remote and changes in the local repository
 
 --------------
 
