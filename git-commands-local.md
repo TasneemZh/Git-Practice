@@ -38,7 +38,9 @@
 
 *Copies a set of commits under the selected branch and paste them under the branchName*
 
-**Note:** when using rebasing for a branch that resides on the same line on the tree then "fast-forwarding" what would happen
+**Notes:**
+
+- when using rebasing for a branch that resides on the same line on the tree then "fast-forwarding" what would happen
 
 --------------
 
@@ -88,7 +90,9 @@
 
 *Interactive rebasing the commits from the branchName position until the chosen position*
 
-**Note:** the result would be a copy of the commits in the new order and formatting under the parent of the last chosen commit
+**Notes:**
+
+- the result would be a copy of the commits in the new order and formatting under the parent of the last chosen commit
 
 --------------
 
@@ -114,6 +118,8 @@
 
 *In case there are more than one parents, the HEAD gets detached and goes to the parent positioned directly above it*
 
-**Note:** the number follows the ^ would move the HEAD to the other parents
+**Notes:**
+
+- the number follows the ^ would move the HEAD to the other parents
 
 
