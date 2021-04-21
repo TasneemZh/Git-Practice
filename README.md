@@ -10,7 +10,7 @@
 
 > git init
 
-*initalize Git*
+*initialize Git*
 
 > git status
 
@@ -62,7 +62,7 @@
 
 *copy the work in "temp" and paste it in "main"*
 
-**Note:** *it would neglict the "temp" **original** work and make it points to where the selected branch (main) points*
+**Note:** *it would neglect the "temp" **original** work and make it points to where the selected branch (main) points*
 
 > git push
 
@@ -96,13 +96,13 @@
 
 > *1 - Create an empty repository on GitHub*
 
-*the content that have been added* 
+*the content that has been added* 
 
 > start README.md
 
 *open the file README.md through the default editor on the user's computer*
 
-**Note:** *another command can be used is specifiying the editor to open the file with : `>atom README.md<`
+**Note:** *another command that can be used is specifying the editor to open the file with: `>atom README.md<`
 
 > *[write more steps on README.md through the Atom application]*
 
@@ -172,7 +172,7 @@
 
 > ls -a
 
-*show the the files and folder including the hidden ones*
+*show the files and folder including the hidden ones*
 
 ### 10 - Format the README.md on the remote repository
 
@@ -186,7 +186,7 @@
 
 > cat status
 
-**Note:** *the local main branch is behind the remote main branch by a number of commits*
+**Note:** *the local main branch is behind the remote main branch by several commits*
 
 > git merge origin/main
 
@@ -194,12 +194,5 @@
 
 **Note:** *now it is up-to-date*
 
-### 12 - Add the rest of steps on README.md on the remote repository
-
-
-
-
-
-
-
+### 12 - Add the rest of the steps on README.md on the remote repository
 
