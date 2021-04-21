@@ -78,9 +78,9 @@
 - git branch -d new
 - ls -a
 
-## 10 - Format the README.md on the remote repository
+### 10 - Format the README.md on the remote repository
 
-## 11 - On the HyperTerminal, type:
+### 11 - On the HyperTerminal, type:
 
 > git fetch
 
