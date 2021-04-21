@@ -78,22 +78,24 @@
 - git branch -d new
 - ls -a
 
-10 - Format the README.md on the remote repository
+#### 10 - Format the README.md on the remote repository
 
-11 - On the HyperTerminal, type:
+#### 11 - On the HyperTerminal, type:
 
-- git fetch
-- cat git-commands-local.md
-- **not updated yet**
-- 
-- cat status
-- **the local main branch is behind the remote main branch by a number of commits**
-- 
-- git merge origin/main
-- 
-- cat git-commands-local.md **now it is up-to-date**
+> git fetch
 
-12 - Add the rest of steps on README.md on the remote repository
+> cat git-commands-local.md
+*not updated yet*
+
+> cat status
+*the local main branch is behind the remote main branch by a number of commits*
+
+> git merge origin/main
+
+> cat git-commands-local.md
+*now it is up-to-date*
+
+#### 12 - Add the rest of steps on README.md on the remote repository
 
 
 
