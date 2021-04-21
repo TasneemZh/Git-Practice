@@ -62,10 +62,10 @@
 
 ### 9 - On the HyperTerminal, type:
 
-- git checkout -b new
-- cat >>README.md
-- *[write more steps on README.md through the HyperTerminal]*
-- cat README.md
+> git checkout -b new
+> cat >>README.md
+> *[write more steps on README.md through the HyperTerminal]*
+> cat README.md
 - git status
 - git add .
 - git commit -m "Write some content on README.md"
@@ -82,9 +82,9 @@
 
 ### 11 - On the HyperTerminal, type:
 
-  > git fetch
+> git fetch
 
-  > cat git-commands-local.md
+> cat git-commands-local.md
 
 *not updated yet*
 
