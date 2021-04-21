@@ -1,6 +1,6 @@
-### 1 - Create an empty repository on GitHub.
+### 1 - Create an empty repository on GitHub
 
-### 2 - Create a local repository with some files.
+### 2 - Create a local repository with some files
 
 ### 3 - On the HyperTerminal, type:
 
@@ -70,7 +70,7 @@
 
 > git checkout temp
 
-### 4 - Change one of the files extensions [from txt to md].
+### 4 - Change one of the files extensions [from txt to md]
 
 ### 5 - On the HyperTerminal, type:
 
@@ -80,7 +80,7 @@
 
 > git commit -m "Change the extension of git-command-local"
 
-### 6 - Change the other file extension [from txt to md].
+### 6 - Change the other file extension [from txt to md]
 
 ### 7 - On the HyperTerminal, type:
 
@@ -102,7 +102,7 @@
 
 *open the file README.md through the default editor on the user's computer*
 
-**Note:** *another command that can be used is specifying the editor to open the file with: `>atom README.md<`
+**Note:** *another command that can be used is specifying the editor to open the file with: `atom README.md`*
 
 > *[write more steps on README.md through the Atom application]*
 
@@ -126,7 +126,7 @@
 
 > git branch
 
-### 8 - Format the two git-commands files on the remote repository.
+### 8 - Format the two git-commands files on the remote repository
 
 ### 9 - On the HyperTerminal, type:
 
@@ -174,7 +174,7 @@
 
 *show the files and folder including the hidden ones*
 
-### 10 - Format the README.md on the remote repository.
+### 10 - Format the README.md on the remote repository
 
 ### 11 - On the HyperTerminal, type:
 
@@ -194,5 +194,5 @@
 
 **Note:** *now it is up-to-date*
 
-### 12 - Add the rest of the steps on README.md on the remote repository.
+### 12 - Add the rest of the steps on README.md on the remote repository
 
