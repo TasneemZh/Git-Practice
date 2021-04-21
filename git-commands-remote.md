@@ -1,37 +1,113 @@
-git clone // Gets the remote repository to your local environment
+**git clone**
 
-git checkout [localBranche] // Not possible to checkout remote branches locally as they are synchronized with the remote repository branches
+*Gets the remote repository to your local environment*
 
-git fetch // Fetches the updated version in the remote to the local repository
+--------------
 
-git pull // Equals to git fetch and then git merge [branchName]
+**git checkout [localBranche]**
 
-git push // Uploads your changes to the remote repository
+*Not possible to checkout remote branches locally as they are synchronized with the remote repository branches*
 
-git pull // Equals to fetch and then merge (follows this command, the push command) - this command is used instead of simply fetching, is when there are updates on the remote and changes in the local repository
+--------------
 
-git pull --rebase // Equals to fetch and then rebase (follows this command, the push command) - this command is used instead of simply fetching, is when there are updates on the remote and changes in the local repository
+**git fetch**
 
-Note: don't make your edits on the "main" branch locally as you will encounter an error when pushing it to the "main" remotely. Make your edits on a new branch or push them on another new branch
+*Fetches the updated version in the remote to the local repository*
 
-git checkout -b branchName remoteBranch // Creates a new branch and synchronous it with the remote branch instead of the default "main"
+--------------
 
-git branch -u remoteBranch branchName // Synchronizes an existing branch with the remote branch
+**git pull**
 
-git branch -u remoteBranch // Synchronizes the selected branch with the remote branch
+*Equals to git fetch and then git merge [branchName]*
 
-git push origin sourceBranch:destBranch // Uploads the local source branch to the remote destination branch
+--------------
 
-git push origin sourceBranch // Uploads the selected branch work to the remote branchName
+**git push**
 
-git fetch origin branchName // Downloads the remote branchName to the selected local branch
+*Uploads your changes to the remote repository*
 
-git fetch // Downloads everything
+--------------
 
-git push origin :destinationBranch // Removes the branch in the remote repository
+**git pull**
 
-git fetch origin :destinationBranch // Creates a new branch in the local repository
+*Equals to fetch and then merge (follows this command, the push command)*
 
-git pull origin branchName // Equals to fetch and merge
+**Note:** this command is used instead of simply fetching, is when there are updates on the remote and changes in the local repository
 
-git pull origin sourceBranch:destintionBranch // Equals to fetch and merge from to
+--------------
+
+**git pull --rebase**
+
+*Equals to fetch and then rebase (follows this command, the push command)*
+
+**Notes:**
+
+- this command is used instead of simply fetching, is when there are updates on the remote and changes in the local repository
+
+- don't make your edits on the "main" branch locally as you will encounter an error when pushing it to the "main" remotely. Make your edits on a new branch or push them on another new branch
+
+--------------
+
+**git checkout -b branchName remoteBranch**
+
+*Creates a new branch and synchronous it with the remote branch instead of the default "main"*
+
+--------------
+
+**git branch -u remoteBranch branchName**
+
+*Synchronizes an existing branch with the remote branch*
+
+--------------
+
+**git branch -u remoteBranch**
+
+*Synchronizes the selected branch with the remote branch*
+
+--------------
+
+**git push origin sourceBranch:destBranch**
+
+*Uploads the local source branch to the remote destination branch*
+
+--------------
+
+**git push origin sourceBranch**
+
+*Uploads the selected branch work to the remote branchName*
+
+--------------
+
+**git fetch origin branchName**
+
+*Downloads the remote branchName to the selected local branch*
+
+--------------
+
+**git fetch**
+
+*Downloads everything*
+
+--------------
+
+**git push origin :destinationBranch**
+
+*Removes the branch in the remote repository*
+
+--------------
+
+**git fetch origin :destinationBranch**
+
+*Creates a new branch in the local repository*
+
+--------------
+
+**git pull origin branchName**
+
+*Equals to fetch and merge*
+
+--------------
+
+**git pull origin sourceBranch:destintionBranch**
+
+*Equals to fetch and merge from to*
