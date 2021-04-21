@@ -1,36 +1,36 @@
 **git command**
 
-*Commits some work
+*Commits some work*
 
 
 
 **git branch [branchName]**
 
-*Creates the branch
+*Creates the branch*
 
 
 
 **git checkout [branchName]**
 
-*Selects the branch
+*Selects the branch*
 
 
 
 **git switch [branchName]**
 
-*A new command instead of "git checkout"
+*A new command instead of "git checkout"*
 
 
 
 **git checkout -b [branchName]**
 
-*Creates and selects the branch
+*Creates and selects the branch*
 
 
 
 **git merge [branchName]**
 
-*Merges the branchName with the selected branch
+*Merges the branchName with the selected branch*
 
 
 
@@ -44,43 +44,43 @@
 
 **git checkout [commitHash]**
 
-*Detaches the HEAD
+*Detaches the HEAD*
 
 
 
 **git checkout [branchName]^**
 
-*Gets back one step in position
+*Gets back one step in position*
 
 
 
 **git checkout [branchName]~(num)**
 
-*Gets back with a number of steps in position
+*Gets back with a number of steps in position*
 
 
 
 **git branch -f [branchName] [anotherBranchName]**
 
-*Moves by force the branchName to the same position as the anotherBranchName
+*Moves by force the branchName to the same position as the anotherBranchName*
 
 
 
 **git reset [branchName]**
 
-*Undoes the commits of the selected branch until arriving at the branchName position
+*Undoes the commits of the selected branch until arriving at the branchName position*
 
 
 
 **git revert [branchName]**
 
-*Reverses the last changes (last commit) that are pointed by the branchName
+*Reverses the last changes (last commit) that are pointed by the branchName*
 
 
 
 **git cherry-pick [commitHash] [commitHash] ...etc**
 
-*Copies the chosen commits and paste them under the selected branch
+*Copies the chosen commits and paste them under the selected branch*
 
 
 
@@ -94,25 +94,25 @@
 
 **git commit --amend**
 
-*Edits the selected branch's current commit
+*Edits the selected branch's current commit*
 
 
 
 **git tag [tagName] [commitHash]**
 
-*Names a tag at the commit hash
+*Names a tag at the commit hash*
 
 
 
 **git describe [branchName]**
 
-*Gets a description of the nearest tag name with how many steps it is far from the branch current position, and the commit of the current position
+*Gets a description of the nearest tag name with how many steps it is far from the branch current position, and the commit of the current position*
 
 
 
 **git checkout [branchName]^**
 
-*In case there are more than one parents, the HEAD gets detached and goes to the parent positioned directly above it
+*In case there are more than one parents, the HEAD gets detached and goes to the parent positioned directly above it*
 
 **Note:** the number follows the ^ would move the HEAD to the other parents
 
