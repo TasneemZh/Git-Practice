@@ -36,6 +36,8 @@
 
 *establish a connection between the current local repository and the determined remote repository*
 
+**Note:** *this command is followed by `git fetch` if it is not empty, and `git rebase origin/main` if the local repository is not empty*
+
 > git push -u origin main
 
 *upload the work in the "main" branch to the remote repository named (by default) "origin"*
