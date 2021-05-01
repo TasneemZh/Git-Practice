@@ -10,6 +10,12 @@
 
 --------------
 
+**git branch -M [branchName]**
+
+*Changes current branch name*
+
+--------------
+
 **git checkout [branchName]**
 
 *Selects the branch*
