@@ -16,12 +16,6 @@
 
 --------------
 
-**git pull**
-
-*Equals to git fetch and then git merge [branchName]*
-
---------------
-
 **git push**
 
 *Uploads your changes to the remote repository*
@@ -35,6 +29,18 @@
 **Notes:**
 
 - this command is used instead of simply fetching, is when there are updates on the remote and changes in the local repository
+
+--------------
+
+**Notes:**
+
+- **git fetch/pull/push** without specifying the source and destination branches won't work unless the remote branch is tracked (sychronized with)
+
+--------------
+
+**git push -f**
+
+*Ignores the local repository changes and apply the remote repository ones*
 
 --------------
 
